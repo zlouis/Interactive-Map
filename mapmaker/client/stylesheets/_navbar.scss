@@ -1,0 +1,58 @@
+
+
+    @media only screen and (max-width : 992px) {
+      header, main, footer {
+        padding-left: 0;
+      }
+    }
+
+    .btn, .btn-large {
+      background-color: #b51212;
+      left: 100px;
+    }
+
+     @media #{$medium-and-down} {
+    // styles for medium screens and down
+    .side-nav {
+    transform:translate(-100px)
+    }
+  }
+
+  .at-social-btn, .at-btn.submit {
+    min-width: 64%;
+}
+
+@media #{$medium-and-down} {
+    // styles for medium screens and down
+    .pad-body {
+    padding-left: 0px;
+    }
+    nav .button-collapse {
+    left: -6%;
+  }
+}
+
+.users{
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #cd3331;
+}
+
+.side-nav.fixed a {
+    color: darkseagreen;
+}
+
+.side-nav.fixed {
+    background-color: #212121;
+
+    background-image: url(img/city-lights.jpg);
+    background-size: cover;
+    background-position-x: -114px;
+}
+
+.menuButtons{
+  font-size:larger;
+}
+
+nav ul a {
+        font-size: larger;
+      }
